@@ -1,10 +1,11 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hello-python
-  labels:
-    app: hello-python
+    name: hello-python
+    labels:
+      app: hello-python
 spec: 
-  containers:
-  - name: hello-python
-    image: <registry-path/hello-python>
+    containers:
+    - name: hello-python
+      image: <registry-path/hello-python>
